@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 
 const port = 4001
-const version = "alternative 1"
+const version = "1"
 
 app.get("/", (req, res) => {
 
