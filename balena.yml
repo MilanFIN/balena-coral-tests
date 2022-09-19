@@ -4,11 +4,8 @@ description: >-
   testing edgetpu
 post-provisioning: >-
   ##
-assets:
-  repository:
-    type: blob.asset
-    data:
-      url: 'github.com/milanfin'
+
+
 data:
   supportedDeviceTypes:
     - coral-dev
