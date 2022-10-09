@@ -1,0 +1,12 @@
+name: docker-tpu-test
+type: sw.application
+description: >-
+  testing edgetpu
+post-provisioning: >-
+  ##
+
+
+data:
+  supportedDeviceTypes:
+    - coral-dev
+

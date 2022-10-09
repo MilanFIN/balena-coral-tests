@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  nodejs-version-test2:
+    build: .
+    ports:
+      - "4001:4001"
